@@ -12,8 +12,8 @@ class App extends React.Component {
   render(){
   return (
     <div>
-    <Header titulo={this.state.titulo}/>
-    <Body tituloModificado={this.modificarTitulo}/>
+    <Cabecera titulo={this.state.titulo}/>
+    <Cuerpo tituloModificado={this.modificarTitulo}/>
     </div>
   );
   }
